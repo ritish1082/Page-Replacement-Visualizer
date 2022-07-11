@@ -17,6 +17,7 @@ def visulaize():
     pages = request.form["pages"]
     nframes = int(request.form["frames"])
     pages=list(map(str,pages.split()))
+    n=len(pages)
     res=[]
     if algo =="1":
         res,hit=fifo.fifo(pages,nframes)
@@ -27,7 +28,7 @@ def visulaize():
     elif algo=="3":
         res,hit=lru.lru(pages,nframes)
         title="Least Recently Used (LRU)"
-    return render_template('visualize.html',res=res,algo=title,page_sequence=pages,no_pages=len(pages),frame_size=nframes,hit=hit,miss=len(pages)-hit)
+    return render_template('visualize.html',res=res,algo=title,page_sequence=pages,no_pages=len(pages),frame_size=nframes,hit=hit,miss=n-hit,hit_rate=round((hit/n)*100,2),fault_rate=round(((n-hit)/n)*100,2))
 
 if __name__ == '__main__':
     app.run(debug=True)

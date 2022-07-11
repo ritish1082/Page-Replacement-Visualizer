@@ -20,7 +20,6 @@
     <!-- navbar -->
     <nav class="navbar navbar-light bg-light container-fluid d-flex bar">
         <a class="navbar-brand m-3" href="/"><strong>Page Repalcement Visualizer</strong></a>
-        <!-- fix back to home -->
     </nav>
     <!-- visualizer -->
     <div class="container-fluid">
@@ -58,13 +57,12 @@
             </div>
             <div class="col-lg-2">
                 <h5 ><strong>SUMMARY</strong></h5>
-                <!-- <p>Page Sequence:<strong>{{page_sequence}}</strong> </p> -->
                 <p>Number of Pages: <strong>{{no_pages}}</strong></p>
                 <p>Number of Frames: <strong>{{frame_size}}</strong></p>
                 <p>Total Hit: <strong>{{hit}}</strong> </p>
-                <p>Hit Rate: <strong style="color: greenyellow;">{{(hit/no_pages)*100}} %</strong></p>
+                <p>Hit Rate: <strong style="color: greenyellow;">{{hit_rate}} %</strong></p>
                 <p>Total Miss: <strong>{{miss}}</strong></p>
-                <p>Fault Rate: <strong style="color: crimson;">{{(miss/no_pages)*100}} %</strong><p>
+                <p>Fault Rate: <strong style="color: crimson;">{{fault_rate}} %</strong><p>
                 <button class="p-1 rounded"><a href="/"><img style="width: 25px;" src="https://icons.veryicon.com/png/o/miscellaneous/esgcc-basic-icon-library/back-to-home-page-4.png" alt=""> Back to Home</a></button>
             </div>
         </div>
