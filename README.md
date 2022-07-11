@@ -4,5 +4,5 @@ A website used to visulaize the page replacement algorithms. User can choose fro
 - Optimal (LFU)
 - Least Recently Used (LRU)
 
-**Deployed at:** https://page-replacement-visualizer.herokuapp.com/visualize
+**Deployed at:** https://page-replacement-visualizer.herokuapp.com
 
