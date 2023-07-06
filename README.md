@@ -5,6 +5,7 @@ A website used to visualize the page replacement algorithms. Users can choose fr
 - Least Recently Used (LRU)
 
 ## Tech Stack
+- HTML
 - Python
 - Flask
 
