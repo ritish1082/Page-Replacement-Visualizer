@@ -1,8 +1,12 @@
 # Page-Replacement-Visualizer
-A website used to visulaize the page replacement algorithms. User can choose from the given algorithms below
+A website used to visualize the page replacement algorithms. Users can choose from the given algorithms below
 - First In First Out (FIFO)
 - Optimal (LFU)
 - Least Recently Used (LRU)
 
-**Deployed at:** https://page-replacement-visualizer.herokuapp.com
+## Tech Stack
+- Python
+- Flask
+
+**Deployed at** https://page-replacement-visualizer.herokuapp.com
 
