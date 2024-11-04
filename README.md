@@ -7,12 +7,13 @@ A website used to visualize the page replacement algorithms. Users can choose fr
 
 # Home Page
 - Users can give page sequence, frame size, and replacement algorithm
-  
+
+![Home image](https://github.com/ritish1082/Page-Replacement-Visualizer/blob/main/assets/home.png)
 
 # Visualize
 - Users can visualize a table with page sequences and frame sizes with hit and miss rate.
 
-
+![Home image](https://github.com/ritish1082/Page-Replacement-Visualizer/blob/main/assets/visualize.png)
 
 ## Tech Stack
 - HTML
